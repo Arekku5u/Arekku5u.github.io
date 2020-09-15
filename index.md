@@ -10,3 +10,6 @@ This page will contain varying write ups from differenct training sources (TryHa
 [Write Up](/WriteUps/Jacob_The_Boss/Jacob_The_Boss.md)
 
 * * *
+
+# Vulnix - Vulnhib
+[Write Up](/WriteUps/Vulnix/Vulnix.md)
