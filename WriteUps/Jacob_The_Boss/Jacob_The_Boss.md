@@ -38,6 +38,8 @@ Port 8080 is a JBoss Application Server.
 
 ![port 8080](port_8080.png)
 
+***
+
 In terms of what JBoss is and what is does is a topic for another day you can read some basic info on it [here](https://www.theserverside.com/definition/JBoss).
 
 If we start looking into possible exploits for this service you'll soon find an Exploit-DB page for RCE depending on the version. You can check the version of JBoss by going to JBoss Web Console on port 8080, showing us that this service is vulnerable to the RCE exploit.
