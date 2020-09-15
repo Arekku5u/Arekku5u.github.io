@@ -30,6 +30,8 @@ Starting with port 80 we are greeted with a blog page powered by dotclear with o
 
 ![Port_80](port_80.png)
 
+***
+
 The post is just detailing how the new CMS will make the 'company' more dynamic.
 
 Port 8009 is useless to us since we can't connect so we can move straight onto port 8080.
@@ -58,12 +60,15 @@ Afterwards you should be greeted with this
 
 ![Jexboss](Jexboss.png)
 
+***
+
 Type yes and you'll then be asked to input a listening host and port, input your IP address and a port you want to list on and set up a listener to the same spec.
 
 If all went well you will get a shell as the user Jacob.
 
 ![Shell](shell.png)
 
+***
 
 The listener I'm using is [pwncat](https://pwncat.org/) on the recommendation of a friend 
 
@@ -88,11 +93,15 @@ I have an alias for this command so that's why I only put http.server 80
 
 ![linpeas](linpeash.png) 
 
+***
+
 Chmod the script and run it.
 
 There's a lot to unpack in the output that you should go through yourself. After a bit you'll reach the SUID section and this is the part that took up my time the first time because I missed the unusal program
 
 ![suid](suid.png)
+
+***
 
 Hopefully you'll notice it quicker than I did.
 
@@ -107,5 +116,6 @@ And it works as seen below
 
 ![PE](PE.png)
 
+***
 
 You can spawn a better shell with python, but you are effectively the root user so you can go a retrieve the flags for the room.
