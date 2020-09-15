@@ -65,7 +65,7 @@ If all went well you will get a shell as the user Jacob.
 
 The listener I'm using is [pwncat](https://pwncat.org/) on the recommendation of a friend 
 
-## Privledge Escalation 
+## Privilege Escalation 
 
 The priviledge escalation for this one took me a lot longer than I care to admit, primarily because I missed the path my first time around. But with enumaration and some quick googleing the path is pretty clear.
 
