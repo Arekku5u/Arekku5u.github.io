@@ -5,7 +5,7 @@ layout: default
 # Jacob The Boss - Tryhackme
 
 ***
-
+[You can find the room here](https://tryhackme.com/room/jacobtheboss)
 **Jacob The Boss** is a medium difficulty room from Try Hack Me that uses a JBoss foothold for the inital shell along with a sneaky suid binary for priviledge escalation.
 
 ## Walkthrough - 
