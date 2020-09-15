@@ -81,7 +81,6 @@ You can do this with just a simple python server and wget. If you find that you 
 
 ```
 export TERM=xterm
-
 ```
 
 Python Server
